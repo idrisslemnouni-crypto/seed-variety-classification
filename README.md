@@ -48,3 +48,8 @@ python -m pytest -q
 The official 4.5 MB archive downloads and verifies its frozen SHA-256. Only fixed ARFF/text members are extracted. Raw source and trusted locally trained joblib are saved locally and excluded from Git. Inference accepts exactly the original 16 finite positive morphology inputs; example-input.json is one real held-out grain. Load only locally produced, trusted artifacts.
 
 [Executed notebook](notebooks/01_evidence.ipynb), [verification](docs/verification.md), [French learning guide](docs/learning-guide.md), [interview notes](docs/interview-notes.md), [design](docs/design.md). CI is pending scheduled publication. Random grain splitting, even after deduplication, cannot establish performance on independent farms, cameras, years or unknown varieties. Acquire batch-labelled external data for deployment claims. Development assisted by AI; understand the supplied explanations before presenting the work.
+
+
+## GitHub publication
+
+[Public repository](https://github.com/idrisslemnouni-crypto/seed-variety-classification) · [Current CI results](https://github.com/idrisslemnouni-crypto/seed-variety-classification/actions). Published following the user's explicit 5 October 2026 request to release the prepared portfolio together. Earlier local-verification notes describe the pre-publication checkpoint. Raw sources and trained artifacts remain excluded from Git; reproduction commands regenerate them.
