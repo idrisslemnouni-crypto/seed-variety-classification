@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "train_fraction": 0.7,
+  "validation_fraction": 0.15,
+  "test_fraction": 0.15,
+  "selection": "validation_macro_f1",
+  "logistic_C": 1,
+  "rf_trees": 200,
+  "rf_depth": 12,
+  "rf_min_leaf": 2,
+  "svm_C": 10,
+  "svm_gamma": "scale",
+  "temperature_bounds": [
+    0.05,
+    10
+  ]
+}

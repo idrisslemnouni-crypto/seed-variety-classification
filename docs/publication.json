@@ -1,0 +1,21 @@
+{
+  "description": "Seven dry-bean varieties from real morphology features with duplicate-aware splits, calibrated SVM and held-out error analysis",
+  "topics": [
+    "agriculture",
+    "machine-learning",
+    "classification",
+    "svm",
+    "scikit-learn",
+    "explainable-ai"
+  ],
+  "issues": [
+    {
+      "title": "Validate on independent labelled grain batches",
+      "body": "UCI source lacks batch/farm/camera IDs. Acquire an independently licensed batch-labelled set and evaluate the frozen feature contract/model before deployment claims."
+    },
+    {
+      "title": "Evaluate unknown varieties and separate calibration data",
+      "body": "Current seven-class score transformation calibrates on the same validation set used for selection. Add a disjoint calibration set and unknown-variety evaluation before adopting abstention thresholds."
+    }
+  ]
+}

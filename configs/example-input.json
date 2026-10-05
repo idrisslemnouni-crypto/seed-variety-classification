@@ -1,0 +1,18 @@
+{
+  "Area": 31074.0,
+  "Perimeter": 653.6999999999999,
+  "MajorAxisLength": 238.90377378665616,
+  "MinorAxisLength": 165.7617100423294,
+  "AspectRation": 1.441248245602974,
+  "Eccentricity": 0.7201263066881459,
+  "ConvexArea": 31423.0,
+  "EquivDiameter": 198.90863634618898,
+  "Extent": 0.7588278388278388,
+  "Solidity": 0.9888934856633675,
+  "roundness": 0.9137976892191421,
+  "Compactness": 0.8325889256308555,
+  "ShapeFactor1": 0.007688220820835945,
+  "ShapeFactor2": 0.0022789150227207,
+  "ShapeFactor3": 0.6932043190831421,
+  "ShapeFactor4": 0.9990795087229827
+}
