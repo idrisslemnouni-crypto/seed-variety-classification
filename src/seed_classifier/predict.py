@@ -9,6 +9,7 @@ import pandas as pd
 from scipy.special import softmax
 
 from seed_classifier.data import FEATURES
+from seed_classifier.support import range_diagnostics
 from seed_classifier.train import scores
 
 
@@ -33,6 +34,7 @@ def predict(root, payload):
         "variety_probability": float(probability[state["classes"].index(variety)]),
         "probability_argmax_variety": state["classes"][int(probability.argmax())],
         "probabilities": dict(zip(state["classes"], probability.tolist(), strict=True)),
+        "input_support": range_diagnostics(payload, state.get("training_feature_ranges")),
         "scope": "Source morphology population; no independent batch or unknown-class validation",
     }
 

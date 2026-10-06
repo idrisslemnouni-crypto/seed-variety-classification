@@ -28,6 +28,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 
 from seed_classifier.data import FEATURES, read_source, split_data
+from seed_classifier.support import training_feature_ranges
 
 
 def scores(model, x):
@@ -153,6 +154,7 @@ def run(root):
             "features": FEATURES,
             "classes": classes,
             "selected": selected,
+            "training_feature_ranges": training_feature_ranges(train),
         },
         root / "models/selected.joblib",
     )
